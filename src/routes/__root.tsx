@@ -31,7 +31,8 @@ export const Route = createRootRouteWithContext<{
     scripts: [
       {
         src: "https://analytics.bingewave.net/api/script.js",
-        children: 'data-site-id="1" defer',
+        "data-site-id": "1",
+        defer: true,
       },
     ],
   }),
