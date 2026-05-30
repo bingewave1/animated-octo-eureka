@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@convex-dev/react-query": "^0.1.0",
+    "@openpanel/web": "^1.4.1",
     "@tailwindcss/vite": "^4.1.18",
     "@tanstack/react-devtools": "latest",
     "@tanstack/react-query": "^5.100.14",
