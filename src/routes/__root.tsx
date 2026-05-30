@@ -3,7 +3,6 @@ import { createRootRouteWithContext } from "@tanstack/react-router";
 import { HeadContent, Scripts } from "@tanstack/react-router";
 import { TanStackRouterDevtoolsPanel } from "@tanstack/react-router-devtools";
 import { TanStackDevtools } from "@tanstack/react-devtools";
-import rybbit from "@rybbit/js";
 import appCss from "../styles.css?url";
 
 export const Route = createRootRouteWithContext<{
@@ -32,6 +31,7 @@ export const Route = createRootRouteWithContext<{
       {
         src: "https://analytics.bingewave.net/api/script.js",
         "data-site-id": "1",
+        "data-session-replay": "true",
         defer: true,
       },
     ],
