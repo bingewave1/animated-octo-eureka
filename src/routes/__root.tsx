@@ -18,21 +18,24 @@ export const Route = createRootRouteWithContext<{
         content: "width=device-width, initial-scale=1",
       },
       {
-        title: "TanStack Start Starter",
+        title:
+          "BingeWave - Watch Everything in One Place - Movies & TV Shows & Anime & Drama & Shorts",
+      },
+      {
+        name: "description",
+        content:
+          "Why switch between apps when you can have it all in one place? BingeWave lets you explore movies, TV shows, anime, dramas, and shorts in a single, easy-to-use platform. Whether you're in the mood for a quick watch or a full-on binge session, BingeWave has something for every moment.",
+      },
+      {
+        name: "keywords",
+        content:
+          "movies, tv shows, anime, dramas, shorts, streaming,bingewave, binge wave, online sa prevodom, prevod, sa prevodom, binge-watching, entertainment, movies online, watch TV shows, anime streaming, drama series, watch movies app, streaming app, free movies, binge watch, HD streaming, short videos, entertainment app",
       },
     ],
     links: [
       {
         rel: "stylesheet",
         href: appCss,
-      },
-    ],
-    scripts: [
-      {
-        src: "https://analytics.bingewave.net/api/script.js",
-        "data-site-id": "1",
-        "data-track-errors": "true",
-        async: true,
       },
     ],
   }),

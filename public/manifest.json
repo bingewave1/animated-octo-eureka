@@ -1,6 +1,16 @@
 {
-  "short_name": "TanStack App",
-  "name": "Create TanStack App Sample",
+
+  "short_name": "BingeWave",
+  "name": "BingeWave - Watch Everything in One Place - Movies & TV Shows & Anime & Drama & Shorts",
+  "categories": [
+    "entertainment",
+    "lifestyle",
+    "movies",
+    "tv",
+    "streaming",
+    "anime"
+  ],
+  "description": "Why switch between apps when you can have it all in one place? BingeWave lets you explore movies, TV shows, anime, dramas, and shorts in a single, easy-to-use platform. Whether you're in the mood for a quick watch or a full-on binge session, BingeWave has something for every moment.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -19,7 +29,12 @@
     }
   ],
   "start_url": ".",
+  "id": "/",
   "display": "standalone",
+  "display_override": ["window-controls-overlay", "minimal-ui", "standalone"],
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US",
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
