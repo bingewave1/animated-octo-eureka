@@ -32,7 +32,7 @@ export const Route = createRootRouteWithContext<{
         src: "https://analytics.bingewave.net/api/script.js",
         "data-site-id": "1",
         "data-session-replay": "true",
-        defer: true,
+        async: true,
       },
     ],
   }),
