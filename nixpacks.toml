@@ -1,0 +1,15 @@
+[phases.setup]
+nixPkgs = ["nodejs", "pnpm", "pm2"]
+
+[phases.install]
+cmd = [
+    "echo -- Installing packages",
+    "pnpm install --frozen-lockfile",
+    "echo -- Done installing packages"
+]
+
+[phases.build]
+cmd = "pnpm run build"
+
+[start]
+cmd = "pm2-runtime start pnpm --name \"bingewave\" -- start"
